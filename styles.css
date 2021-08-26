@@ -1,10 +1,10 @@
-/*START NAVBAR*/
+ /*START NAVBAR*/
 nav{
     position: fixed;
     height: 100%;
     overflow: auto;
     background-color: #7c6d6d;
-    width: 250px;
+    width: 17%;
 
 }
 nav >ul {
@@ -28,3 +28,8 @@ nav li a:hover {
     color: white;
   }
   /*END NAV BAR*/
+  /*START MAIN*/
+  main {
+    margin-left:20%;
+  }
+   /*END MAIN*/
