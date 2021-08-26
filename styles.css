@@ -31,5 +31,9 @@ nav li a:hover {
   /*START MAIN*/
   main {
     margin-left:20%;
+    background-image: url(images/SARS-CoV-2_\(CDC-23312\).png) ;
+    background-size: 1000px;
+    background-repeat: no-repeat;
+    background-position: center;
   }
    /*END MAIN*/
