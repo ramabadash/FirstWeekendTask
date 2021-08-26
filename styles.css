@@ -1,10 +1,14 @@
+ *{
+     font-size: 20px;
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+ }
  /*START NAVBAR*/
 nav{
     position: fixed;
     height: 100%;
     overflow: auto;
     background-color: #7c6d6d;
-    width: 17%;
+    width: 18%;
 
 }
 nav >ul {
@@ -21,6 +25,10 @@ nav li a {
     color: #000;
     padding: 8px 16px;
     text-decoration: none;
+    font-size: small;
+    border-top: 1px solid #bbb;
+    border-bottom: 1px solid #bbb;
+    border-color: lightgray; 
   }
   
 nav li a:hover {
@@ -29,16 +37,25 @@ nav li a:hover {
   }
   /*END NAV BAR*/
   /*START MAIN*/
-  main {
+main {
     margin-left:20%;
     background-image: url(images/SARS-CoV-2_\(CDC-23312\).png) ;
     background-size: 1000px;
     background-repeat: no-repeat;
     background-position: center;
+    
   }
    /*END MAIN*/
+   h1 {
+    text-shadow: 2px 2px rgb(192, 88, 88);
+    font-size: 40px;
+  }
+  
+h2{
+    font-size: 40px;
+}
 
-   code {
+code {
     font-family: Consolas,"courier new";
     color: crimson;
     padding: 2px;
