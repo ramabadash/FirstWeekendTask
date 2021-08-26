@@ -37,3 +37,10 @@ nav li a:hover {
     background-position: center;
   }
    /*END MAIN*/
+
+   code {
+    font-family: Consolas,"courier new";
+    color: crimson;
+    padding: 2px;
+    font-size: 105%;
+  }
