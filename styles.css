@@ -80,3 +80,47 @@ code {
     padding: 2px;
     font-size: 105%;
   }
+/*START FORM*/
+form{
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+}
+form label{
+    font-size: 22px;
+    font-family: fantasy;
+}
+input[type=text]{
+    background-color: #c24848;
+    color: white;
+    padding: 10px 18px;
+    margin: 4px 2px;
+}
+input[type=number]{
+    background-color: #c24848;
+    color: white;
+    padding: 10px 18px;
+    margin: 4px 2px;
+}
+select {
+    width: 50%;
+    color:white;  
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #c24848;
+  }
+input[type=submit] {
+    background-color: #b12d2d;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    margin: 4px 2px;
+}
+span {
+    font-size: 25px;
+    font-family: fantasy;
+    text-align:center;
+
+}
+/*END FORM*/
