@@ -6,7 +6,7 @@ _read all the tasks before starting_
 
 - [x] Fork this repository to your github
 - [x] With github desktop clone the repo and open it in vs code
-- [ ] Fulfill the user stories and get all of the tests to pass
+- [X] Fulfill the user stories and get all of the tests to pass
 - [X] For <strong>each</strong> user story submit a commit to github
 - [X] Give it your own personal style
 - [ ] After finishing all the tasks submit a link to your repo in the google classroom

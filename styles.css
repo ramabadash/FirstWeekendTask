@@ -1,5 +1,5 @@
  *{
-     font-size: 20px;
+     font-size: 22px;
      font-family:Verdana, Geneva, Tahoma, sans-serif;
  }
  /*START NAVBAR*/
@@ -43,10 +43,26 @@ main {
     ,url(images/SARS-CoV-2_\(CDC-23312\).png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size:cover;
     
   }
    /*END MAIN*/
+   /*START MEDIA*/
+   @media screen and (min-width: 480px) {
+    main{
+        font-size: 20px;  
+    }
+}
+@media screen and (max-width: 480px) {
+    nav{
+        width: 100%;
+        position: static;
+    }
+    main{
+        margin: 0;
+    }   
+}
+    /*END MEDIA*/
    /*Start headers*/
 h1 {
     text-shadow: 2px 2px rgb(192, 88, 88);
