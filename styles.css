@@ -32,21 +32,23 @@ nav li a {
   }
   
 nav li a:hover {
-    background-color: rgb(126, 57, 57);
+    background-color:rgb(139, 77, 77) ;
     color: white;
   }
   /*END NAV BAR*/
   /*START MAIN*/
 main {
-    margin-left:20%;
-    background-image: url(images/SARS-CoV-2_\(CDC-23312\).png) ;
-    background-size: 1000px;
+    margin-left:19%;
+    background-image: linear-gradient(115deg,rgba(131, 94, 94, 0.5),rgba(196, 196, 221, 0.7)) 
+    ,url(images/SARS-CoV-2_\(CDC-23312\).png);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     
   }
    /*END MAIN*/
-   h1 {
+   /*Start headers*/
+h1 {
     text-shadow: 2px 2px rgb(192, 88, 88);
     font-size: 40px;
   }
@@ -54,6 +56,7 @@ main {
 h2{
     font-size: 40px;
 }
+/*END headers*/
 
 code {
     font-family: Consolas,"courier new";
