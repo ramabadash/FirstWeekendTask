@@ -60,7 +60,7 @@ main {
         padding: 0;
         overflow: hidden;
         background-color: #7c6d6d;
-        position: static;
+        position: sticky;
         height: 5%;
         width: 100%;
         font-size: x-small;
