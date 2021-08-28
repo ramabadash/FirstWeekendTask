@@ -38,7 +38,7 @@ nav li a:hover {
   /*END NAV BAR*/
   /*START MAIN*/
 main {
-    margin-left:19%;
+    margin-left:20%;
     background-image: linear-gradient(115deg,rgba(131, 94, 94, 0.5),rgba(196, 196, 221, 0.7)) 
     ,url(images/SARS-CoV-2_\(CDC-23312\).png);
     background-repeat: no-repeat;
@@ -60,7 +60,7 @@ main {
         padding: 0;
         overflow: hidden;
         background-color: #7c6d6d;
-        position: sticky;
+        position: static;
         height: 5%;
         width: 100%;
         font-size: x-small;
@@ -71,7 +71,7 @@ main {
       }
       
     nav  li a {
-        display: block;
+        display: inline block;
         color: white;
         text-align: center;
         padding: 14px 16px;
